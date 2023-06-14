@@ -1,7 +1,7 @@
 import Logo from '../media/icons/logo.svg';
 import NavbarBg from '../media/images/navbar-sphare.png';
 
-export const NavbarDesktop = () => {
+const Navbar = () => {
     return (
         <div className="container d-flex justify-content-end align-items-center justify-content-lg-center position-relative">
             <img src={NavbarBg} alt="" className='position-absolute top-0 start-res-110 w-res-372'/>
@@ -17,10 +17,4 @@ export const NavbarDesktop = () => {
 }
 
 
-export const NavbarMobile = () => {
-    return (
-        <div>
-            navbar mobile
-        </div>
-    )
-}
+export default Navbar;
