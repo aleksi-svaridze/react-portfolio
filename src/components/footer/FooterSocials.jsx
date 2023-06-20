@@ -8,21 +8,11 @@ import YoutubeIcon from '../../media/icons/footer/youtube_icon.svg';
 const FooterSocials = () => {
     return (
         <div className='d-flex align-items-center justify-content-center column-gap-1 column-gap-sm-2 column-gap-md-3'>
-            {/* <a href="/insatagram"> */}
-                <img src={InstagramIcon} alt="" className='w-48 h-48' />
-            {/* </a> */}
-            {/* <a href="/twitter"> */}
-                <img src={TwitterIcon} alt="" className='w-48 h-48' />
-            {/* </a> */}
-            {/* <a href="/linkedin"> */}
-                <img src={LinkedinIcon} alt="" className='w-48 h-48' />
-            {/* </a> */}
-            {/* <a href="/facebook"> */}
-                <img src={FacebookIcon} alt="" className='w-48 h-48'/>
-            {/* </a> */}
-            {/* <a href="/youtube"> */}
-                <img src={YoutubeIcon} alt="" className='w-48 h-48' />
-            {/* </a> */}
+            <img src={InstagramIcon} alt="" className='w-48 h-48' />
+            <img src={TwitterIcon} alt="" className='w-48 h-48' />
+            <img src={LinkedinIcon} alt="" className='w-48 h-48' />
+            <img src={FacebookIcon} alt="" className='w-48 h-48'/>
+            <img src={YoutubeIcon} alt="" className='w-48 h-48' />
         </div>
     )
 }
