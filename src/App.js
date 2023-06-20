@@ -7,7 +7,7 @@ import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <div className="App bg-blue-dark text-white">
+    <div className="App bg-blue-dark text-white overflow-x-hidden">
         <Navbar />
         <Home />
         <About />

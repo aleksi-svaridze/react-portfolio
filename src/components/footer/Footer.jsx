@@ -2,6 +2,7 @@ import FooterNav from "./FooterNav";
 import FooterSocials from "./FooterSocials";
 import PrivacyPolicy from "./PrivacyPolicy";
 import PlanetImg from '../../media/icons/footer/planet_icon.svg';
+import Illustration from '../../media/images/illustration.png';
 
 
 const Footer = () => {
@@ -9,6 +10,7 @@ const Footer = () => {
         <div className='bg-blue pt-5 px-5'> 
             <div className="container pt-5 position-relative">
                 <img src={PlanetImg} alt="" className="footer-bg position-absolute" />
+                <img src={Illustration} alt="" className="position-absolute footer-illustration" />
                 <div className="row gy-5">
                     <div className="col-12 col-sm-4 col-md-12 d-flex flex-column align-items-center d-sm-block">
                         <FooterNav />

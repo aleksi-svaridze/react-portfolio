@@ -2,7 +2,7 @@
 
 const Portfolio = () => {
     return (
-        <div>
+        <div className="my-5 py-5">
             Portfolio section
         </div>
     )
