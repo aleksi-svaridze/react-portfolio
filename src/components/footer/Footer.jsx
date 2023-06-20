@@ -8,9 +8,9 @@ import Illustration from '../../media/images/illustration.png';
 const Footer = () => {
     return (
         <div className='bg-blue pt-5 px-5'> 
-            <div className="container pt-5 position-relative">
+            <div className="container pt-5 position-relative z-1">
                 <img src={PlanetImg} alt="" className="footer-bg position-absolute" />
-                <img src={Illustration} alt="" className="position-absolute footer-illustration" />
+                <img src={Illustration} alt="" className="position-absolute footer-illustration z-n1" />
                 <div className="row gy-5">
                     <div className="col-12 col-sm-4 col-md-12 d-flex flex-column align-items-center d-sm-block">
                         <FooterNav />
