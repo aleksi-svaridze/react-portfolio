@@ -1,0 +1,22 @@
+.conatct-form {
+    width: 900px;
+    height: 600px;
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    -o-backdrop-filter: blur(10px);
+    -ms-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    
+
+    border-radius: 30px;
+
+    background: rgba(47, 47, 138, 0.6);
+    border: 1px solid;
+    border-image-source: linear-gradient(117.73deg, #FFFFFF 6.04%, #000000 99.35%);
+
+    padding: 53px 90px;
+}
+.contact-designer-image {
+    top: -330px;
+    left: -120px;
+}
