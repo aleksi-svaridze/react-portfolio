@@ -6,7 +6,7 @@ import DesignerImage from '../../media/images/contact/working.png';
 
 const Contact = () => {
     return (
-        <div className="my-5 py-5 position-relative z-3 container d-flex justify-content-center">
+        <div className="mb-5 py-5 position-relative z-3 container d-flex justify-content-center">
 
             <div className="my-5 conatct-form position-relative">
                 <img src={DesignerImage} alt="" className='contact-designer-image position-absolute' />
