@@ -1,6 +1,6 @@
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
-import Home from "./components/Home";
+import Hero from "./components/hero/Hero";
 import Navbar from "./components/Navbar";
 import Work from "./components/work/Work";
 import Footer from './components/footer/Footer';
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App bg-blue-dark text-white overflow-x-hidden">
         <Navbar />
-        <Home />
+        <Hero />
         <About />
         <Work />
         <Contact />

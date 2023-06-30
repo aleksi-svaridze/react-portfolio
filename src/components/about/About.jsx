@@ -4,7 +4,7 @@ import DesignerImage from '../../media/images/about/designer.png';
 
 const About = () => {
     return (
-        <div className="container py-5 my-5">
+        <div className="container pb-5 mb-5">
             <div className="mx-auto about-wrapper position-relative">
                 <div className='rounded-circle about-circle position-relative mx-auto d-flex flex-column align-items-center justify-content-center text-center'>
                   <h3 className='fw-bold about__title mb-2'>About me</h3>
