@@ -10,7 +10,7 @@ const Home = () => {
                         <h1 className='fw-bold display-3 pt-5 ps-5 hero__title position-relative z-3'>
                             Creative UI Designer<br />
                             Maya Svaridze<br />
-                            Based in Tbilisi
+                            Based in London
                         </h1>
                     </div>
                 </div>
