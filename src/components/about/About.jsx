@@ -1,6 +1,5 @@
 import AboutBg from '../../media/images/about/background.svg';
 import CrystalImage from '../../media/images/about/crystall.svg';
-import DesignerImage from '../../media/images/about/designer.png'; 
 
 const About = () => {
     return (

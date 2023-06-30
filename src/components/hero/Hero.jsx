@@ -16,8 +16,8 @@ const Home = () => {
                 </div>
                 <div className="row mt-5 pt-3 ps-5 ms-4">
                     <div className="d-flex column-gap-3 offset-2 ps-5 position-relative z-3">
-                        <a href="" className='text-decoration-none hero__hireme-btn hero__btn'>Hire me</a>
-                        <a href="" className='text-capitalize text-decoration-none hero__download hero__btn'>download CV</a>
+                        <a href="/hire-me" className='text-decoration-none hero__hireme-btn hero__btn'>Hire me</a>
+                        <a href="/download-cv" className='text-capitalize text-decoration-none hero__download hero__btn'>download CV</a>
                     </div>
                 </div>
             </div>
