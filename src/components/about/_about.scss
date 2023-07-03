@@ -5,9 +5,9 @@
     margin: 0 auto;
     position: relative;
     z-index: 10;
-    width: 260px;
-    height: 260px;
-    background-position-y: -51px;
+    width: 300px;
+    height: 300px;
+    background-position-y: -59px;
 
     &::after {
         content: '';
@@ -18,16 +18,16 @@
         position: absolute;
         width: 100px;
         height: 140px;
-        right: -47px;
-        bottom: -38px;
+        right: -25px;
+        bottom: -60px;
     }
 }
 .text__content {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 110px;
-    right: 20px;
+    width: 138px;
+    right: 10px;
 
 
     &--title {
@@ -39,7 +39,7 @@
     }
     &--desc {
         color: #FFF;
-        font-size: 8px;
+        font-size: 10px;
         line-height: 130%;
     }
     &--more {
