@@ -13,7 +13,7 @@ const Mobile = () => {
         {id: 3, imgSrc: CardImageMockups, desc: 'Mockups'},
     ]
     return (
-        <div className='container'>
+        <div className='container' id='work'>
                 <div className="row gy-5 justify-content-center align-items-center">
 
                 { cardContent.map(content => ( 

@@ -17,7 +17,7 @@ const Desktop = () => {
     ]
 
     return (
-        <div className='position-relative' style={{height: `${width >= 1400 ? '995px' : '1130px'}`}}>
+        <div className='position-relative' style={{height: `${width >= 1400 ? '995px' : '1130px'}`}} id='work'>
             <img src={ width >= 1400 ? WorkBgBig : WorkBgMedium} alt="" style={{maxWidth: '1400px'}} className='w-100 d-block mx-auto position-absolute top-50 start-50 translate-middle' />
             
             <div className="container position-absolute top-50 start-50 translate-middle">

@@ -3,7 +3,7 @@ import circleImage from '../../media/images/about/background.svg';
 
 const About = () => {
     return (
-        <div className="container py-5 mb-5">
+        <div className="container pb-5 mb-5" id='about'>
             <div className='about-bg'>
                 <div className='text__content'>
                     <h2 className='text__content--title'>About me</h2>
