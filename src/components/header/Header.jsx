@@ -1,6 +1,7 @@
 import HeroBg from '../../media/images/hero/hero_bg.svg';
 import Hero from '../hero/Hero';
 import Navbar from '../navbar/Navbar';
+import SideMenu from '../sideMenu/SideMenu';
 
 
 const Header = () => {
@@ -11,6 +12,7 @@ const Header = () => {
             </div>
             <Navbar />
             <Hero />
+            <SideMenu />
         </header>
     )
 }
