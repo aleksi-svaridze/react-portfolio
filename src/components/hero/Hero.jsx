@@ -7,7 +7,7 @@ const Hero = () => {
     if(width <= 420) {
         fontSize = 24;
         top = 150;
-        maxWidth = 90 + '%';
+        maxWidth = 80 + '%';
     }
     else if(width > 420 && width <= 576) {
         fontSize = 24;

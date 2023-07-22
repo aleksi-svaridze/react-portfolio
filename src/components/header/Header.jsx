@@ -6,7 +6,7 @@ import SideMenu from '../sideMenu/SideMenu';
 
 const Header = () => {
     return (
-        <header className="position-relative">
+        <header className="position-relative" id='home'>
             <div className='container'>
                 <img src={HeroBg} alt="" className='position-relative' style={{width: 'calc(100% + 428px)', left: '-128px', right: '-300px'}} />
             </div>
