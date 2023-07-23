@@ -63,9 +63,9 @@
             }
         }
 
-        & li a span {
-            width: 44px;
-            height: 44px;
+        & li a svg {
+            width: 24px;
+            height: 24px;
         }
     }
 
@@ -94,9 +94,9 @@
                 }
             }
     
-            & li a span {
-                width: 34px;
-                height: 34px;
+            & li a svg {
+                width: 24px;
+                height: 24px;
             }
         }
     }
@@ -125,10 +125,14 @@
                 }
             }
     
-            & li a span {
-                width: 30px;
-                height: 30px;
+            & li a svg {
+                width: 24px;
+                height: 24px;
             }
         }
+    }
+
+    @media screen and (orientation: landscape) {
+        height: 100vh;
     }
 }

@@ -13,11 +13,11 @@ const SideMenu = () => {
     let [active, setActive] = useState(null);
 
     let menuLinks = [
-        {id: 1, img: <HomeIcon fill={active ? 'white' : '#0F103F'} />, address: '/#home'},
-        {id: 2, img: <AboutIcon fill={active ? 'white' : '#0F103F'} />, address: '/#about'},
-        {id: 3, img: <WorkIcon fill={active ? 'white' : '#0F103F'} />, address: '/#work'},
-        {id: 4, img: <ContactIcon fill={active ? 'white' : '#0F103F'} />, address: '/#contact'},
-        {id: 5, img: <SearchIcon fill={active ? 'white' : '#0F103F'} />, address: '/#search'},
+        {id: 1, icon: HomeIcon, address: '/#home'},
+        {id: 2, icon: AboutIcon, address: '/#about'},
+        {id: 3, icon: WorkIcon, address: '/#work'},
+        {id: 4, icon: ContactIcon, address: '/#contact'},
+        {id: 5, icon: SearchIcon, address: '/#search'},
     ]
     return (
         <nav className="side_menu">
@@ -25,11 +25,11 @@ const SideMenu = () => {
                 {
                     menuLinks.map(link => (
                         <li key={link.id}>
-                            <a 
+                            <a  
                                 href={link.address} 
                                 onClick={() => setActive(link.id)}
                                 className={`${active === link.id ? 'active' : ''}`}>
-                                <span>{link.img}</span>
+                                {<link.icon fill={active === link.id ? 'white' : '#0F103F'} />}
                             </a>
                         </li>
                     ))
